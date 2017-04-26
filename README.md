@@ -15,6 +15,8 @@ $ git clone https://github.com/ocadaruma/zsh-gcloud-prompt.git /path/to/zsh-gclo
 
 #### 2. Configure your zsh
 
+Current gcloud config is stored in `ZSH_KUBECTL_PROMPT`. (in the form of `"${active-account}:${active-project}"`)
+
 For example, add following lines to `~/.zshrc`
 
 ```
